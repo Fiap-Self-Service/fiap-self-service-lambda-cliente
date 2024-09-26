@@ -1,7 +1,7 @@
 module.exports.handler = async (event, context) => {
     // Simulação do objeto mockado
     const mockResponse = {
-      id: null,
+      id: 1,
       nome: 'Merhy Daychoum',
       email: 'merhy@gmail.com',
       cpf: '70234146060'
