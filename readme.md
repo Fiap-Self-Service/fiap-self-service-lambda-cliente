@@ -18,7 +18,7 @@ A API Gateway, aciona o lambda **identificar-cliente-lambda** que por sua vez, c
 Exemplo CURL para requisição: 
 ```
 curl --location 'https://ymp1xhca0c.execute-api.us-east-1.amazonaws.com/lambda/identificarcliente/{cpf}' \
---header 'Authorization: Bearer {token}'
+--header 'Authorization: Bearer {token}' 
 ```
 
 Exemplo de Response:
